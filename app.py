@@ -4,7 +4,7 @@ import dash_bootstrap_components as dbc
 
 external_stylesheets = ['assets/style.css']
 app = dash.Dash(__name__, use_pages=True, suppress_callback_exceptions=True, external_stylesheets=[dbc.themes.LUX,external_stylesheets])
-
+server = app.server
 SIDEBAR_STYLE = {
     "position": "fixed",
     "top": 0,
