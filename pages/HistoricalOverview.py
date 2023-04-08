@@ -100,7 +100,7 @@ layout = dbc.Container(
                     html.P("Women Business and the Law Index Score", className="chart-title",
                            style={"padding-top": "80px"}),
                     html.P(
-                        "Assess how laws and regulations affect women’s economic opportunity based on the indicators: "
+                        "Assess how laws and regulations affect women's economic opportunity based on the indicators: "
                         "Mobility, Workplace, Pay, Marriage, Parenthood, Entrepreneurship, Assets and Pension.",
                         style={"font-size": "14px", "opacity": "60%", "padding-bottom": "30px",
                                "text-align": "justify"}),
@@ -109,7 +109,7 @@ layout = dbc.Container(
                     html.P("Women Involvement in Leadership", className="chart-title", style={
                         "padding-top": "80px"}),
                     html.P("Percentage of women in total employment who hold high level managerial positions and "
-                           "Percentage of parliamentary seats in a single or lower chamber held by women.",
+                           "percentage of parliamentary seats in a single or lower chamber held by women.",
                            style={"font-size": "14px", "opacity": "60%", "padding-bottom": "30px",
                                   "text-align": "justify"}),
                     dbc.Col([
@@ -128,7 +128,7 @@ layout = dbc.Container(
                 dbc.Row([
                     html.P("Gender Pay Gap at a Glance", className="chart-title", style={"padding-left": "90px",
                                                                                          "padding-top": "20px"}),
-                    html.P("Highlighting the salaries inequalities faced by women in the job-market.",
+                    html.P("Highlighting the salaries inequalities faced by women in the job market.",
                            style={"font-size": "14px", "opacity": "60%", "padding-left": "90px",
                                   "padding-bottom": "30px", "text-align": "left"}),
                     dbc.Row([dcc.Graph(id='gapChart')], style={"padding-left": "100px"})
@@ -422,7 +422,7 @@ def callback_gap_chart(selected_country_main):
                       margin=dict(l=0, r=0, t=0, b=0),
                       legend=dict(yanchor="top", y=0.99, xanchor='left', x=0.03))
     fig.update_xaxes(title_font_size=20)
-    fig.update_yaxes(title_font_size=20)
+    fig.update_yaxes(title_font_size=20,title="Average Annual Wage (€)")
     return fig;
 
 
