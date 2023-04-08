@@ -1,0 +1,135 @@
+body{
+    background-color: #FAF9F9;
+}
+
+p{
+    margin:0px;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #555B6E,
+}
+
+
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #555B6E;
+}}
+
+.rc-slider .rc-slider-track {
+  background-color: red;
+}
+
+.chart-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align:left;
+    color:#555B6E
+}
+.chart-title-middle{
+    font-size: 20px;
+    font-weight: bold;
+    text-align:center;
+    color:#555B6E
+}
+
+.person-icon-left {
+    padding-bottom: 10px;
+    filter: drop-shadow(3px 3px 3px #666666);
+}
+.person-icon-right {
+    padding-bottom: 10px;
+    filter: drop-shadow(3px 3px 3px #666666);
+}
+.box {
+  background-color: #FAF9F9;
+  margin: 10px;
+  padding: 25px;
+}
+
+#pieChart1{
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+}
+#pieChart2{
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+}
+
+#selected_country_main .VirtualizedSelectFocusedOption {
+  background-color:#BEE3DB;
+}
+#selected_country_secondary .VirtualizedSelectFocusedOption {
+  background-color:#BEE3DB;
+}
+#selected_education .VirtualizedSelectFocusedOption {
+  background-color:#BEE3DB;
+}
+
+.form-check-input:checked {
+    background-color: #555B6E;
+}
+
+
+.Select--multi .Select-value {
+    background-color: green;
+    border-color: #e3a700;
+    color: #555B6E;
+}
+
+.radio input[type="radio"] {
+  opacity: 0;
+  position: absolute;
+}
+
+.radio label {
+  display: table-caption;
+  background-color: #F9F9F8;
+  padding: 5px 5px;
+  font-size: 16px;
+  border: 2px solid #BEE3DB;
+  border-radius: 10px;
+  width: 200%;
+  text-align: center;
+}
+
+.radio input[type="radio"]:checked + label {
+  background-color: #BEE3DB;
+  border: 2px solid #F9F9F8;
+}
+
+.radio label:hover {
+  background-color: #e1e2df;
+  border: 2px solid #e1e2df;
+}
+
+#growthChart{
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+.map{
+  background-color: #FAF9F9;
+  margin: 0px;
+
+}
+.h-50{
+    background-color:#FAF9F9;
+}
+.form-check-input {
+    border-radius:5px
+}
+.table{
+    padding:0px;
+    margin: 0px;;
+
+}
+#country_text{
+    text-align: justify;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 30px;
+    padding-right: 30px;
+    opacity: 80%;
+}
