@@ -126,10 +126,13 @@ h1, h2, h3, h4, h5, h6{
 
 }
 #country_text{
-    text-align: justify;
+    text-align: center;
     display: flex;
     align-items: flex-end;
     padding-left: 30px;
     padding-right: 30px;
-    opacity: 80%;
+    font-size: 17px;
+    opacity: 100%;
+    font-weight: bold;
+    color: #555B6E;
 }
