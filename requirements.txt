@@ -9,6 +9,3 @@ numpy
 pandas
 plotly
 requests
-PIL
-io
-base64
